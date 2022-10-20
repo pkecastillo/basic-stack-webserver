@@ -48,7 +48,7 @@ services:
       image: adminer
       restart: always
       # ports:
-        #     - "8085:8081"
+        #     - "8085:8080"
       network_mode: host
       environment:
         ADMINER_PLUGINS: tables-filter tinymce
@@ -57,7 +57,7 @@ services:
 
 * Run ```docker-compose up -d```
 
-* Open ADMINER DB MANAGER at http://localhost:8081
+* Open ADMINER DB MANAGER at http://localhost:8080
 
 * Open WEB SERVER DB MANAGER at http://localhost
 
